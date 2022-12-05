@@ -12,7 +12,7 @@ public class SelenoidFactory {
     private SelenoidFactory(){
 
     }
-    public  static WebDriver getDriver(BrowserType browserType){
+    public static WebDriver getDriver(BrowserType browserType){
 
         return browserType == BrowserType.CHROME
                 ? SelenoidChromeManager.getDriver()
