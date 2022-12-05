@@ -9,7 +9,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class SelenoidFireFoxManager {
     public static WebDriver getDriver() {
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(CapabilityType.BROWSER_NAME,"FIREFOX");
         capabilities.setCapability(CapabilityType.BROWSER_VERSION,"91.0");

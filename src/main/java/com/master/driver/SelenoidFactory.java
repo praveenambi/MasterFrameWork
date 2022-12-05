@@ -14,7 +14,7 @@ public class SelenoidFactory {
     }
     public  static WebDriver getDriver(BrowserType browserType){
 
-        return browserType = BrowserType.CHROME
+        return browserType == BrowserType.CHROME
                 ? SelenoidChromeManager.getDriver()
                 : SelenoidFireFoxManager.getDriver();
     }
