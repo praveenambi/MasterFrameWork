@@ -1,6 +1,6 @@
 package com.master.converters;
 
-import com.master.framework.config.BrowserType;
+import com.master.enums.BrowserType;
 import org.aeonbits.owner.Converter;
 
 import java.lang.reflect.Method;
